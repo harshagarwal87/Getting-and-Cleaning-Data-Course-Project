@@ -42,8 +42,7 @@ Combined_Data <-
   Combined_Data[, c("Subject", "Activity", Required_features)]
 
 #Replacing activity ID with respective activity name
-Combined_Data$Activity <-
-  merge(Combined_Data$Activity, Activities, by = 1) [, 2]
+Combined_Data$Activity <- Activities[Combined_Data$Activity, 2]
 
 # Removing () and - from column names
 names(Combined_Data) <- gsub("\\(\\)|-", "", names(Combined_Data))
