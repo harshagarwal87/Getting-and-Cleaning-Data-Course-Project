@@ -12,7 +12,8 @@ Data set used can be downloaded from [UCI data set](https://d396qusza40orc.cloud
 Below are prequisites required before running [run_analysis.R](run_analysis.R):
 
 - Package: [reshape2 package](http://cran.r-project.org/web/packages/reshape2/index.html). Use `install.package("reshape2")` to install the package if not already installed.
-- Download and unzip the [UCI data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in working directory
+- Download the [UCI data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+- Unzip the file in folder `getdata_projectfiles_UCI HAR Dataset` in the working directory.
 
 # Output
 
